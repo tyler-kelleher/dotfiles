@@ -1,10 +1,6 @@
-#!/bin/bash
+#!/bin/zsh
 
-# if [ $SPIN ]; then
-# # Install Oh My Zsh
-#   sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-  
-#   cp ~/dotfiles/.zshrc ~
- 
-#   cat ~/dotfiles/spin.sh >> ~/.zshrc
-# fi
+# Install Oh My Zsh
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
+ln -sf ~/dotfiles/zshrc ~/.zshrc
